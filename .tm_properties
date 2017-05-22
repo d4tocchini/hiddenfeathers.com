@@ -1,0 +1,22 @@
+
+include = "{$include,.gitignore,,.htpasswd,.htaccess,jshintrc,.editorconfig,.tmp,.prettifyrc,node_modules/bootstrap-sass}"
+excludeInFolderSearch = "{$excludeInFolderSearch,dist,node_modules,public,es,lib}"
+# excludeInFolderSearch = "{$excludeInFolderSearch,_site,node_modules,dist,public,es,lib}”
+# include = "{$include,.gitignore,.htpasswd}"
+
+# windowTitle = "$TM_DISPLAYNAME — ${CWD/^.*\///}"
+
+[ *.txt ]
+softWrap = true
+wrapColumn = 80
+spellChecking = true
+theme = "71D40D9D-AE48-11D9-920A-000D93589AF6"
+
+[ *.md ]
+softWrap = true
+wrapColumn = 80
+spellChecking = true
+theme = "71D40D9D-AE48-11D9-920A-000D93589AF6"
+
+# https://gist.github.com/dvessel/1478685
+

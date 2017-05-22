@@ -1,0 +1,38 @@
+node_modules
+.idea
+npm-debug.log
+newrelic_agent.log
+public
+dist
+.DS_Store
+webpack-assets.json
+stats.json
+.eslintcache
+_working
+built
+tmp
+_tmp
+# flow-typed
+lerna-debug.log
+.tmp
+
+# http://stackoverflow.com/questions/11895712/git-is-it-possible-to-exclude-file-from-git-push-but-keep-them-in-the-local
+packages/ds--solver/output/**
+# packages/ds--solver/mocks/nj/**
+# packages/ds--solver/mocks/d4/**
+packages/ds--solver/mocks
+
+# could maybe on commit hook clear the mocks file so it is an empty array?
+# https://github.com/webpack/webpack/issues/3496
+
+# packages/ds--solver/mocks/nj/**
+# !packages/ds--solver/mocks/nj/allMocks.js
+# !packages/ds--solver/mocks/nj/tempMocks.js
+# packages/ds--solver/mocks/d4/**
+# !packages/ds--solver/mocks/d4/allMocks.js
+# !packages/ds--solver/mocks/d4/tempMocks.js
+
+#vim editor
+.vimrc.custom
+*.swp
+*.swo
