@@ -3032,7 +3032,7 @@
 		}
 
 		function f() {
-			window.open('https://www.eventbrite.com/e/hidden-feathers-womens-workshop-tickets-35087462545', '_blank');
+			window.open('https://www.eventbrite.com/e/hidden-feathers-womens-workshop-aug-10-12-tickets-45858634410', '_blank');
 			return !1
 		}
 		var k = [{
