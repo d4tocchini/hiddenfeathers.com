@@ -3176,14 +3176,14 @@
 							component: 'detail',
 							props: {
 								type: 'award',
-								value: 'Westerbeke Ranch, Sonoma CA',
+								value: 'Sonoma County, CA',
 								label: 'Where'
 							}
 						}, {
 							component: 'detail',
 							props: {
 								type: 'award',
-								value: 'August 10\-12, 2018',
+								value: 'January 11\-13, 2018',
 								label: 'When'
 							}
 						}, {
